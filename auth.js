@@ -1,6 +1,3 @@
-const ADMIN_USER = "Pratiksha";
-const ADMIN_PASS = "CPTech@123";
-
 // LOGIN FUNCTION
 function login() {
   const user = document.getElementById("username").value;
@@ -14,7 +11,7 @@ function login() {
   }
 }
 
-// PAGE GUARD (runs on protected pages)
+// PAGE GUARD
 function checkAuth() {
   const isLoggedIn = localStorage.getItem("isAdminLoggedIn");
 
@@ -23,7 +20,7 @@ function checkAuth() {
   }
 }
 
-// LOGOUT (optional)
+// LOGOUT
 function logout() {
   localStorage.removeItem("isAdminLoggedIn");
   window.location.href = "login.html";
