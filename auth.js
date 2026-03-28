@@ -1,5 +1,5 @@
-const ADMIN_USER = import.meta.env.VITE_ADMIN_USER;
-const ADMIN_PASS = import.meta.env.VITE_ADMIN_PASS;
+const ADMIN_USER = "Pratiksha";
+const ADMIN_PASS = "CPTech@123";
 
 // LOGIN FUNCTION
 function login() {
